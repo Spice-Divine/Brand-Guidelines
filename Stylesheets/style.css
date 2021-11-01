@@ -1,0 +1,18 @@
+.header-banner {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    height: auto;
+    width: auto;
+    background-image: url(../Assets/img/banner.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .btn-primary {
+      background: #E62542;
+      border-radius: 3px;
+      border-color: #E62542;
+      
+
+  }
