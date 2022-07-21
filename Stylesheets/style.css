@@ -1,18 +1,12 @@
-.header-banner {
-    margin-left: 2vh;
-    margin-right: 2vh;
-    height: auto;
-    width: auto;
-    background-image: url(../Assets/img/banner.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  .btn-primary {
-      background: #E62542;
-      border-radius: 3px;
-      border-color: #E62542;
-      
+@font-face {
+  font-family: "futura";
+  src: url("../Assets/fonts/Futura\ Bold.otf");
+}
 
-  }
+.btn{
+  @apply  bg-white border-2 border-sdred text-sdred py-2 px-4 hover:bg-sdred hover:text-white hover:border-transparent rounded;
+}
